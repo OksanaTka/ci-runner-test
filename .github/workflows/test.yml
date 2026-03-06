@@ -20,3 +20,14 @@ jobs:
           pwd
           uname -a
           ls -la
+
+      - name: Check Python
+        run: python3 --version
+        
+      - name: Check brew
+        run: brew list
+
+      - name: System info
+        run: |
+          sysctl -n machdep.cpu.brand_string
+          system_profiler SPHardwareDataType
