@@ -2,7 +2,7 @@
 
 This repository is a simple test project for experimenting with **GitHub Actions self-hosted runners**.
 
-## Purpose
+## Purpose 
 
 The goal of this repository is to learn how to:
 
